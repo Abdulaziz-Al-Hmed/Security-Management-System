@@ -1,0 +1,28 @@
+{
+  "app": {
+    "name": "Security Management System",
+    "name_ar": "نظام إدارة الأمان والهوية",
+    "version": "1.0.0",
+    "description": "نظام إدارة شامل للأمان والهوية في بيئة العمل",
+    "company": {
+      "name": "Water Desalination Company",
+      "name_ar": "شركة تحلية المياه"
+    }
+  },
+  "database": {
+    "type": "sqlite",
+    "backup_interval": 24,
+    "max_backups": 30
+  },
+  "security": {
+    "session_timeout": 30,
+    "max_login_attempts": 3,
+    "password_min_length": 8
+  },
+  "ui": {
+    "default_language": "ar",
+    "supported_languages": ["ar", "en"],
+    "theme": "light",
+    "items_per_page": 10
+  }
+}
